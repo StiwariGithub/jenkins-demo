@@ -15,7 +15,7 @@ pipelineJob('theme-park-job') {
                     remote {
                         url 'https://github.com/StiwariGithub/spring-boot-api-example.git'
                     }
-                    branch 'main'
+                    branch 'master'
                 }
             }
         }
