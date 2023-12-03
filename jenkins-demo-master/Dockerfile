@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.426.1-jdk17
+FROM jenkins/jenkins:latest
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN jenkins-plugin-cli --plugin-file /usr/share/jenkins/ref/plugins.txt
